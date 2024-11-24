@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>הלל אהרוני - מפתח Full Stack</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="sidebar">
+        <div class="profile-image">
+            <img src="https://placekitten.com/200/200" alt="תמונת פרופיל">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about" class="nav-link"><i class="fas fa-user"></i> אודות</a></li>
+                <li><a href="#skills" class="nav-link"><i class="fas fa-code"></i> כישורים</a></li>
+                <li><a href="#projects" class="nav-link"><i class="fas fa-project-diagram"></i> פרויקטים</a></li>
+                <li><a href="#contact" class="nav-link"><i class="fas fa-envelope"></i> צור קשר</a></li>
+            </ul>
+        </nav>
+        <div class="social-links">
+            <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+        </div>
+    </div>
+
+    <main>
+        <section id="about" class="section">
+            <h1 class="animate-title">הלל אהרוני</h1>
+            <h2 class="animate-subtitle">Full Stack Developer</h2>
+            <p class="animate-text">מפתח Full Stack בעל ניסיון עשיר בפיתוח אפליקציות ואתרים. מתמחה בטכנולוגיות חדשניות ופתרונות יצירתיים.</p>
+        </section>
+
+        <section id="skills" class="section">
+            <h2>כישורים</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fab fa-html5"></i>
+                    <h3>HTML5</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-css3-alt"></i>
+                    <h3>CSS3</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-js"></i>
+                    <h3>JavaScript</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-react"></i>
+                    <h3>React</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-node"></i>
+                    <h3>Node.js</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-database"></i>
+                    <h3>SQL</h3>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <h2>פרויקטים נבחרים</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="https://picsum.photos/400/300" alt="Project 1">
+                    <h3>פרויקט 1</h3>
+                    <p>תיאור קצר של הפרויקט</p>
+                </div>
+                <div class="project-card">
+                    <img src="https://picsum.photos/401/300" alt="Project 2">
+                    <h3>פרויקט 2</h3>
+                    <p>תיאור קצר של הפרויקט</p>
+                </div>
+                <div class="project-card">
+                    <img src="https://picsum.photos/402/300" alt="Project 3">
+                    <h3>פרויקט 3</h3>
+                    <p>תיאור קצר של הפרויקט</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>צור קשר</h2>
+            <form class="contact-form">
+                <input type="text" placeholder="שם מלא" required>
+                <input type="email" placeholder="אימייל" required>
+                <textarea placeholder="הודעה" required></textarea>
+                <button type="submit">שלח</button>
+            </form>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
